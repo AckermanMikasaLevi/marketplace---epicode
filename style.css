@@ -1,0 +1,211 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #e8a0e7;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .text-white {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar .text-white:hover {
+    color: #dce3e9;
+  }
+  
+  .navbar .form-control {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    background-color: white;
+    color: #670846;
+    border: 1px solid #4d052a;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #f0f0f0;
+    color: #a57aa0;
+  }
+  
+  .navbar a.btn-primary {
+    color: white;
+    background-color: #ca90b0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a.btn-primary:hover {
+    background-color: #c492b5;
+    color: white;
+  }
+  
+  .container {
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+  }
+  
+  .card {
+    width: 250px; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(25, 5, 5, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-body h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: #6f0254;
+  }
+  
+  .card-body .btn {
+    background-color: #9c7c9a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-body .btn:hover {
+    background-color: #7c467a;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  form .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    margin-top: 15px;
+    background-color: #b10d7d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #c69ab8;
+  }
+  
+  #backOfficeProductsContainer .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #backOfficeProductsContainer .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #backOfficeProductsContainer .btn {
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #backOfficeProductsContainer .btn-primary {
+    background-color: #cd99be;
+    color: white;
+    border: none;
+  }
+  
+  #backOfficeProductsContainer .btn-primary:hover {
+    background-color: #d28cbf;
+  }
+  
+  #backOfficeProductsContainer .btn-danger {
+    background-color: #c4a3bc;
+    color: white;
+    border: none;
+  }
+  
+  #backOfficeProductsContainer .btn-danger:hover {
+    background-color: #d598b7;
+  }
+  

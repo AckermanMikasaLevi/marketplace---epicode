@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back Office</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">Torna alla Homepage</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h3>Gestione Prodotti</h3>
+    <form id="productForm" class="mb-5">
+      <input type="hidden" id="productId">
+      <div class="mb-3">
+        <label for="name">Nome Prodotto</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="description">Descrizione</label>
+        <textarea id="description" required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="brand">Brand</label>
+        <input type="text" id="brand" required>
+      </div>
+      <div class="mb-3">
+        <label for="price">Prezzo</label>
+        <input type="number" id="price" required>
+      </div>
+      <div class="mb-3">
+        <label for="imageUrl">URL Immagine</label>
+        <input type="url" id="imageUrl" required>
+      </div>
+      <button type="submit">Salva</button>
+    </form>
+
+    <div id="backOfficeProductsContainer" class="row"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
